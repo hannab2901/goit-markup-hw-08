@@ -1,10 +1,10 @@
 .logo {
   text-decoration: none;
   font-family: Raleway;
-  @include font($fw: 700, $fs: 26px, $lh: 1.19, $ls: 0.03em);
+  @include font($fw: 700, $fs: 24px, $lh: 1.17, $ls: 0.03em);
   color: var(--accent-color);
-  margin-right: 9;
-  margin-right: 93px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .logo-black {
   color: #000000;
