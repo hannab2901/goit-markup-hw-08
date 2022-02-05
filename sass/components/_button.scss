@@ -1,6 +1,11 @@
 .menu-button {
   border: none;
   background-color: transparent;
+
+  &:hover svg,
+  &:focus svg {
+    fill: var(--accent-color);
+  }
 }
 .menu-button__close {
   display: none;
