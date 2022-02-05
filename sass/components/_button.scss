@@ -1,0 +1,13 @@
+.menu-button {
+  border: none;
+  background-color: transparent;
+}
+.menu-button__close {
+  display: none;
+}
+.menu-button.is-open .menu-button__close {
+  display: block;
+}
+.menu-button.is-open .menu-button__open {
+  display: none;
+}
