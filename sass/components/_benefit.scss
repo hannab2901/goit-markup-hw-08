@@ -1,0 +1,31 @@
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.benefits-container {
+  width: 450px;
+  text-align: center;
+}
+
+.benefits__icon-background {
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.benefits__andr-head {
+  @include font($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
+  text-transform: uppercase;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.benefits__text {
+  @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: left;
+  padding-bottom: 30px;
+}
