@@ -26,6 +26,12 @@
     color: var(--accent-color);
   }
 }
+.adres-pading {
+  padding-top: 20px;
+}
+.footer-list {
+  padding-top: 8px;
+}
 .info-footer {
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -48,6 +54,10 @@
   & li:not(:first-child) {
     margin-left: 10px;
   }
+}
+.footer-social {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .ftr-icon {
@@ -81,7 +91,7 @@
 }
 
 .mail-list {
-  margin-left: 93px;
+  text-align: center;
 }
 .footer-input {
   width: 358px;
@@ -99,11 +109,19 @@
   color: rgba(255, 255, 255, 0.6);
 
   padding: 15px 16px;
-  margin-right: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mail-ist {
   height: 24px;
   width: 24px;
-  margin-left: 10px;
+}
+.mail-flex {
+  display: block;
+  text-align: center;
+  & button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
