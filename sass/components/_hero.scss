@@ -14,7 +14,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/img/hero1mob.jpg);
+    url(./img/hero1mob.jpg);
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -23,14 +23,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/img/hero2mob.jpg);
+      url(./img/hero2mob.jpg);
   }
 
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/img/hero.jpg);
+    url(./img/hero.jpg);
 }
 .hero__header {
   @include font($fw: 900, $fs: 26px, $lh: 1.62, $ls: 0.06em);
