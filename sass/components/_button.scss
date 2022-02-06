@@ -1,6 +1,10 @@
 .menu-button {
   border: none;
   background-color: transparent;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  z-index: 1;
 
   &:hover svg,
   &:focus svg {
