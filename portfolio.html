@@ -18,28 +18,38 @@
 </head>
 
 <body>
-<header>
+<header> 
     <div class="container header">
-
-        <a class="logo" href="WebStudio">Web<span class="logo-black">Studio</span> </a>
-
-        <nav>
-            <ul class="list navigation">
-                <li><a class="navigation__list" href="./index.html">Студия</a></li>
-                <li><a class="navigation__list current" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="navigation__list" href="">Контакты</a></li>
-            </ul>
-        </nav>
-
-        <ul class="list header-inf">
-            <li><a class="info" href="mailto:info@devstudio.com"> <svg class="header-mail">
-                        <use href="img/symbol-defs.svg#icon-envelope"></use>
-                    </svg>info@devstudio.com</a></li>
-            <li><a class="info" href="tel:+380961111111"> <svg class="header-tel">
-                        <use href="img/symbol-defs.svg#icon-Vector"></use>
-                    </svg>+38 096 111 11 11</a></li>
+        
+        <a class="logo" 
+         href="WebStudio" rel="noopener noreferrer">Web<span class="logo-black">Studio</span> </a>
+        <button class="menu-button is-open "data-menu type="button"><svg class="" width="40" height="40" aria-label="Переключатель мобильного меню ">
+            <use class="menu-button__open " data-menu-open href="img/symbol-defs.svg#icon-close_40px"></use>
+            <use class="menu-button__close " data-menu-close href="img/symbol-defs.svg#icon-menu_40px"></use>
+        </svg></button>
+      
+    <nav class="navigation">
+        <ul class="list navigation__li">
+            <li><a class="navigation__list " href="./index.html" rel="noopener noreferrer">Студия</a></li>
+            <li><a class="navigation__list  current" href="./portfolio.html" rel="noopener noreferrer">Портфолио</a></li>
+            <li><a class="navigation__list" href="">Контакты</a></li>
         </ul>
-    </div>
+        <ul class="list navigation__mobile ">
+            <li><a class="navigation__contact" href="mailto:info@devstudio.com" rel="noopener noreferrer">info@devstudio.com</a></li>
+            <li><a class="navigation__contact" href="tel:+380961111111" rel="noopener noreferrer">+38 096 111 11 11</a></li>
+        </ul>
+        <ul class="list menu-social ">
+            <li><a class="menu-social__li " href="" rel="noopener noreferrer">Instagram</a></li>
+            <li><a class="menu-social__li" href="" rel="noopener noreferrer">Twitter</a></li>
+            <li><a class="menu-social__li" href="" rel="noopener noreferrer">Facebook</a></li>
+            <li><a class="menu-social__li" href=""rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+         <ul class="list contact ">
+        <li><a class="" href="mailto:info@devstudio.com"> <svg class=""><use href="img/symbol-defs.svg#icon-envelope"></use></svg>info@devstudio.com</a></li>
+        <li><a class="" href="tel:+380961111111"> <svg class=""><use href="img/symbol-defs.svg#icon-Vector"></use></svg>+38 096 111 11 11</a></li>
+    </ul>
+    </nav>
+        </div>
 </header>
     <main>
         <section class="border">
@@ -204,6 +214,7 @@
         </div>
     
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
