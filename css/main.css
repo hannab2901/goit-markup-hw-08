@@ -85,6 +85,12 @@ img {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 88px;
+  }
+}
+
 .logo-black {
   color: #000000;
 }
