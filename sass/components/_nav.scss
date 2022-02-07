@@ -37,7 +37,12 @@
     display: none;
   }
 }
-
+.navigation__li {
+  display: flex;
+  & li:not(:last-child) {
+    margin-right: 50px;
+  }
+}
 .navigation__list {
   @media screen and (min-width: 480px) {
     @include font($fw: 500, $fs: 40px, $lh: 1.18, $ls: 0.02em);
