@@ -293,6 +293,12 @@ img {
   z-index: 2;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
 .menu-button:hover svg,
 .menu-button:focus svg {
   fill: var(--accent-color);
