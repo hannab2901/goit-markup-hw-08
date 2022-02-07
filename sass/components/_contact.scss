@@ -23,6 +23,26 @@
     display: contents;
   }
 }
+.contact__tm {
+  text-decoration: none;
+  list-style: none;
+  @include font($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.02em);
+  color: var(--primary-text-color);
+
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+  &:hover svg,
+  &:focus svg {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
 .menu-social {
   display: flex;
   & li:not(:last-child) {
@@ -48,5 +68,5 @@
 .mobile {
   @media screen and (min-width: 768px) {
     display: none;
-  }
+}
 }
