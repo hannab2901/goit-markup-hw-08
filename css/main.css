@@ -145,6 +145,18 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero1tab.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero2tab.jpg);
+  }
+}
+
 .hero__header {
   font-weight: 900;
   font-size: 26px;
@@ -556,9 +568,25 @@ img {
   padding-bottom: 60px;
 }
 
-.benefits-container {
-  width: 450px;
-  text-align: center;
+@media screen and (min-width: 480px) {
+  .benefits-container {
+    width: 450px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-container {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .benefits-container li {
+    width: 354px;
+  }
+  .benefits-container li:nth-child(2n) {
+    margin-left: 30px;
+  }
 }
 
 .benefits__icon-background {
@@ -577,6 +605,7 @@ img {
   color: #212121;
   padding-top: 30px;
   padding-bottom: 10px;
+  text-align: left;
 }
 
 .benefits__text {
