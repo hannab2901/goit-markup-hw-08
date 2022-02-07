@@ -21,9 +21,21 @@
       padding-bottom: 302px;
     }
   }
+  @media screen and (min-width: 768px) {
+    position: static;
+  }
 }
 .is-open ~ .navigation {
   display: none;
+
+  @media screen and (min-width: 768px) {
+    display: contents;
+  }
+}
+.is-open {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .navigation__list {
