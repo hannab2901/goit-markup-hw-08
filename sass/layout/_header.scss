@@ -1,8 +1,8 @@
 .header {
   background: #ffffff;
+  display: flex;
   @media screen and (min-width: 480px) {
     width: 480px;
-    display: flex;
     position: relative;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -10,5 +10,6 @@
   @media screen and (min-width: 768px) {
     width: 768px;
     padding: 26px 15px;
+    position: static;
   }
 }
