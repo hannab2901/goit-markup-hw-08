@@ -2,6 +2,16 @@
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (min-width: 768px) {
+  }
+  padding-right: 89px;
+}
+.footer-flex {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .footer-title {
@@ -58,6 +68,10 @@
 .footer-social {
   margin-top: 60px;
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-top: 0px;
+    margin-left: 165px;
+  }
 }
 
 .ftr-icon {
@@ -92,6 +106,9 @@
 
 .mail-list {
   text-align: center;
+  @media screen and (min-width: 768px) {
+  }
+  margin-top: 60px;
 }
 .footer-input {
   width: 358px;
