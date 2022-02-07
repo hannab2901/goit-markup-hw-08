@@ -7,13 +7,21 @@
 .our-clients {
   display: flex;
   flex-wrap: wrap;
-  width: 480px;
-
-  & li:nth-child(2n) {
-    margin-left: 30px;
+  justify-content: center;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    & li:nth-child(2n) {
+      margin-left: 30px;
+    }
+    & li {
+      margin-top: 30px;
+    }
   }
-  & li {
-    margin-top: 30px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    & li {
+      margin-left: 30px;
+    }
   }
 }
 
