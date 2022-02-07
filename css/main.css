@@ -116,11 +116,11 @@ img {
 @media screen and (min-width: 768px) {
   .header {
     width: 768px;
+    height: 80px;
     padding: 0;
     position: static;
     align-items: center;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding: 21px 6px;
   }
 }
 
@@ -188,6 +188,10 @@ img {
 @media screen and (min-width: 768px) {
   .contact {
     display: contents;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 84px;
   }
 }
 
@@ -216,16 +220,16 @@ img {
 }
 
 .contact__mail {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
+  width: 14px;
+  height: 10px;
+  margin-right: 8px;
   fill: var(--primary-text-color);
 }
 
 .contact__tel {
   width: 10px;
-  height: 16px;
-  margin-right: 10px;
+  height: 14px;
+  margin-right: 8px;
   fill: var(--primary-text-color);
 }
 
