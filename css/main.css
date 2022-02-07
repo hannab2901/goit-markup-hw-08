@@ -110,8 +110,11 @@ img {
 @media screen and (min-width: 768px) {
   .header {
     width: 768px;
-    padding: 26px 15px;
+    padding: 0;
     position: static;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 }
 
@@ -183,13 +186,41 @@ img {
 }
 
 .contact__tm {
-  display: flex;
-  margin-left: auto;
-  margin-right: 0;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__tm li:not(:last-child) {
-  margin-right: 50px;
+.contact__tm:hover, .contact__tm:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.contact__tm:hover svg,
+.contact__tm:focus svg {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.contact__mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+.contact__tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
 }
 
 .menu-social {
@@ -411,6 +442,10 @@ img {
 @media screen and (min-width: 768px) {
   .navigation {
     position: static;
+    padding: 0px;
+  }
+  .navigation ul:first-child {
+    padding-bottom: 0px;
   }
 }
 
@@ -432,6 +467,8 @@ img {
 
 .navigation__li {
   display: flex;
+  padding-bottom: 0px;
+  align-items: center;
 }
 
 .navigation__li li:not(:last-child) {
@@ -486,12 +523,22 @@ img {
   color: var(--accent-color);
 }
 
-.navigation__li li:first-child {
-  padding-bottom: 35px;
+@media screen and (min-width: 480px) {
+  .navigation__li li:first-child {
+    padding-bottom: 35px;
+  }
+  .navigation__li li:last-child {
+    padding-top: 32px;
+  }
 }
 
-.navigation__li li:last-child {
-  padding-top: 32px;
+@media screen and (min-width: 768px) {
+  .navigation__li li:first-child {
+    padding-bottom: 0px;
+  }
+  .navigation__li li:last-child {
+    padding-top: 0px;
+  }
 }
 
 .benefits {
