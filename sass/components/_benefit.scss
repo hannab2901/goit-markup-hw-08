@@ -4,8 +4,13 @@
 }
 
 .benefits-container {
-  width: 450px;
-  text-align: center;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
 }
 
 .benefits__icon-background {
