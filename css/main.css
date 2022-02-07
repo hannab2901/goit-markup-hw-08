@@ -182,6 +182,16 @@ img {
   }
 }
 
+.contact__tm {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.contact__tm li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .menu-social {
   display: flex;
 }
@@ -418,6 +428,14 @@ img {
   .is-open {
     display: none;
   }
+}
+
+.navigation__li {
+  display: flex;
+}
+
+.navigation__li li:not(:last-child) {
+  margin-right: 50px;
 }
 
 @media screen and (min-width: 480px) {
