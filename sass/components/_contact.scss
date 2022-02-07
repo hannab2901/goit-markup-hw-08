@@ -42,6 +42,19 @@
   &:focus svg {
     color: var(--accent-color);
     fill: var(--accent-color);
+  }
+}
+.contact__mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+.contact__tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
 }
 .menu-social {
   display: flex;
@@ -68,5 +81,5 @@
 .mobile {
   @media screen and (min-width: 768px) {
     display: none;
-}
+  }
 }
