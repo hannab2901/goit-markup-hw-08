@@ -150,7 +150,7 @@ img {
   color: var(--accent-color);
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 480px) {
   .contact {
     display: none;
   }
@@ -158,12 +158,6 @@ img {
 
 .menu-social {
   display: flex;
-}
-
-@media screen and (min-width: 481px) {
-  .menu-social {
-    display: none;
-  }
 }
 
 .menu-social li:not(:last-child) {
@@ -194,7 +188,7 @@ img {
   position: absolute;
   right: 15px;
   top: 10px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu-button:hover svg,
@@ -348,6 +342,7 @@ img {
 .navigation {
   display: block;
   position: fixed;
+  z-index: 1;
   min-width: 100vw;
   min-height: 100vw;
   padding-left: 40px;
@@ -426,7 +421,7 @@ img {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 1200px) {
   .work {
     display: none;
   }
@@ -454,7 +449,7 @@ img {
   color: #212121;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 480px) {
   .team__img {
     width: 450px;
   }
