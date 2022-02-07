@@ -9,10 +9,10 @@
   }
   @media screen and (min-width: 768px) {
     width: 768px;
+    height: 80px;
     padding: 0;
     position: static;
     align-items: center;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding: 21px 6px;
   }
 }
