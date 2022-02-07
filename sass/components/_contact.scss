@@ -1,5 +1,6 @@
 .navigation__mobile li {
   padding-bottom: 32px;
+  text-align: left;
 }
 .navigation__contact {
   font-style: normal;
@@ -62,6 +63,7 @@
 }
 .menu-social {
   display: flex;
+  margin-top: 32px;
   & li:not(:last-child) {
     padding-right: 20px;
   }
@@ -83,6 +85,7 @@
 }
 
 .mobile {
+  margin-top: 302px;
   @media screen and (min-width: 768px) {
     display: none;
   }
