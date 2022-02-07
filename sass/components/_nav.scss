@@ -23,6 +23,10 @@
   }
   @media screen and (min-width: 768px) {
     position: static;
+    padding: 0px;
+    & ul:first-child {
+      padding-bottom: 0px;
+    }
   }
 }
 .is-open ~ .navigation {
@@ -39,6 +43,9 @@
 }
 .navigation__li {
   display: flex;
+  padding-bottom: 0px;
+  align-items: center;
+
   & li:not(:last-child) {
     margin-right: 50px;
   }
@@ -83,10 +90,20 @@
 }
 
 .navigation__li {
-  & li:first-child {
-    padding-bottom: 35px;
+  @media screen and (min-width: 480px) {
+    & li:first-child {
+      padding-bottom: 35px;
+    }
+    & li:last-child {
+      padding-top: 32px;
+    }
   }
-  & li:last-child {
-    padding-top: 32px;
+  @media screen and (min-width: 768px) {
+    & li:first-child {
+      padding-bottom: 0px;
+    }
+    & li:last-child {
+      padding-top: 0px;
+    }
   }
 }
