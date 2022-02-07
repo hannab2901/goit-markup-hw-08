@@ -3,13 +3,16 @@
   font-family: Raleway;
   @include font($fw: 700, $fs: 24px, $lh: 1.17, $ls: 0.03em);
   color: var(--accent-color);
-  @media screen and (min-width: 768px) {
-    margin-right: 88px;
-  }
 }
 .logo-black {
   color: #000000;
 }
 .logo-white {
   color: #ffffff;
+}
+
+.header a.logo {
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
 }
