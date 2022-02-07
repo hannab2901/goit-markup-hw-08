@@ -16,14 +16,11 @@
 }
 
 .contact {
-  @media screen and (max-width: 481px) {
+  @media screen and (min-width: 480px) {
     display: none;
   }
 }
 .menu-social {
-  @media screen and (min-width: 481px) {
-    display: none;
-  }
   display: flex;
   & li:not(:last-child) {
     padding-right: 20px;
