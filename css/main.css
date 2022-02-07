@@ -55,6 +55,12 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
 /* Сховати*/
 .visually-hidden {
   position: absolute;
@@ -89,10 +95,23 @@ img {
 
 .header {
   background: #ffffff;
-  display: flex;
-  position: relative;
-  padding-top: 16px;
-  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    width: 480px;
+    display: flex;
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 768px;
+    padding: 26px 15px;
+  }
 }
 
 .hero {
@@ -339,21 +358,22 @@ img {
   padding-left: 29px;
 }
 
-.navigation {
-  display: block;
-  position: fixed;
-  z-index: 1;
-  min-width: 100vw;
-  min-height: 100vw;
-  padding-left: 40px;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  background: #ffffff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-}
-
-.navigation ul:first-child {
-  padding-bottom: 302px;
+@media screen and (min-width: 480px) {
+  .navigation {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    min-width: 100vw;
+    min-height: 100vw;
+    padding-left: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+  }
+  .navigation ul:first-child {
+    padding-bottom: 302px;
+  }
 }
 
 .is-open ~ .navigation {
