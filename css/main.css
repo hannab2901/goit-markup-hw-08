@@ -564,7 +564,9 @@ img {
 @media screen and (min-width: 768px) {
   .navigation__list.current::after {
     display: contents;
+    display: block;
     height: 4px;
+    color: var(--accent-color);
   }
 }
 
