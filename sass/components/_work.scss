@@ -9,10 +9,10 @@
   @include font($fw: 700, $fs: 36px, $lh: 1.17, $ls: 0.03em);
   text-align: center;
   color: var(--title-text-color);
-  margin-bottom: 50px;
 }
 
 .process {
+  margin-top: 50px;
   display: flex;
   & li:not(:last-child) {
     margin-right: 30px;
