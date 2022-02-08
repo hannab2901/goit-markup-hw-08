@@ -27,6 +27,15 @@
     align-items: flex-start;
     margin-left: 84px;
   }
+  @media screen and (min-width: 1200px) {
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 0;
+    & li:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
 }
 .contact__tm {
   text-decoration: none;
@@ -54,12 +63,24 @@
   height: 10px;
   margin-right: 8px;
   fill: var(--primary-text-color);
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+  }
 }
 .contact__tel {
   width: 10px;
   height: 14px;
   margin-right: 8px;
   fill: var(--primary-text-color);
+  @media screen and (min-width: 1200px) {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+  }
 }
 .menu-social {
   display: flex;
