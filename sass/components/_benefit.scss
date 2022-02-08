@@ -1,6 +1,10 @@
 .benefits {
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .benefits-container {
@@ -17,6 +21,18 @@
     }
     & li:nth-child(2n) {
       margin-left: 30px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    & li {
+      width: 270px;
+    }
+    & li {
+      margin-right: 30px;
+    }
+    & li:nth-child(2n) {
+      margin-left: 0px;
     }
   }
 }
