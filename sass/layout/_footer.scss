@@ -5,8 +5,12 @@
   margin-left: auto;
   margin-right: auto;
   @media screen and (min-width: 768px) {
+    padding-right: 89px;
   }
-  padding-right: 89px;
+  @media screen and (min-width: 1200px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 .footer-flex {
   @media screen and (min-width: 768px) {
