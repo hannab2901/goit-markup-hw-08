@@ -3,6 +3,10 @@
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 
   margin-left: auto;
   margin-right: auto;
@@ -69,4 +73,9 @@
   color: #ffffff;
   margin: auto;
   width: 360px;
+  @media screen and (min-width: 1200px) {
+    @include font($fw: 900, $fs: 44px, $lh: 1.36, $ls: 0.06em);
+    width: 696px;
+    margin: auto;
+  }
 }
