@@ -533,6 +533,7 @@ img {
   line-height: 1.88;
   letter-spacing: 0.06em;
   align-items: center;
+  text-align: center;
   display: flex;
   color: #ffffff;
   padding: 0;
@@ -1087,6 +1088,8 @@ img {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
   padding-right: 89px;
 }
 
@@ -1095,6 +1098,14 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-flex {
+    text-align: left;
+    flex-wrap: nowrap;
+    align-items: center;
   }
 }
 
@@ -1152,15 +1163,19 @@ img {
   margin-left: 10px;
 }
 
-.footer-social {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
 @media screen and (min-width: 768px) {
   .footer-social {
     margin-top: 0px;
     margin-left: 165px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-social {
+    margin-top: 0px;
+    width: 206px;
+    margin-left: 70px;
+    margin-bottom: 25px;
   }
 }
 
@@ -1198,6 +1213,14 @@ img {
   margin-top: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .mail-list {
+    margin-top: 0px;
+    margin-left: 93px;
+    text-align: left;
+  }
+}
+
 .footer-input {
   width: 358px;
   height: 50px;
@@ -1213,6 +1236,7 @@ img {
   padding: 15px 16px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 12px;
 }
 
 .mail-ist {
@@ -1228,6 +1252,13 @@ img {
 .mail-flex button {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .mail-flex {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
