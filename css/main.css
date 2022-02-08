@@ -1407,6 +1407,13 @@ img {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581;
+  }
+}
+
 .is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -1430,6 +1437,12 @@ img {
   margin-bottom: 12px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal-text {
+    width: 448px;
+  }
+}
+
 .modal-icon {
   position: absolute;
   top: 29px;
@@ -1451,6 +1464,12 @@ img {
   width: 370px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal-nav {
+    width: 448px;
+  }
+}
+
 .modal-nav textarea {
   width: 370px;
   resize: none;
@@ -1463,6 +1482,12 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
+@media screen and (min-width: 1200px) {
+  .modal-nav textarea {
+    width: 448px;
+  }
+}
+
 .modal-nav label {
   font-weight: 400;
   font-size: 12px;
@@ -1470,6 +1495,12 @@ img {
   letter-spacing: 0.01em;
   color: #757575;
   width: 370px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-nav label {
+    width: 448px;
+  }
 }
 
 .modal-input {
@@ -1510,7 +1541,7 @@ img {
 
 .check-input:checked + .check-after {
   opacity: 1;
-  transform: translateY(-20px);
+  transform: translateY(-15px);
 }
 
 .send-label {
@@ -1528,6 +1559,24 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .send-label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 9px;
+  }
+  .send-label a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
 }
 
 .check-bifor {
