@@ -159,6 +159,13 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
 }
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero2mob.jpg);
@@ -198,6 +205,17 @@ img {
   color: #ffffff;
   margin: auto;
   width: 360px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    width: 696px;
+    margin: auto;
+  }
 }
 
 .navigation__mobile li {
@@ -667,6 +685,13 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .benefits-container {
     width: 450px;
@@ -685,6 +710,21 @@ img {
   }
   .benefits-container li:nth-child(2n) {
     margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits-container {
+    width: 1200px;
+  }
+  .benefits-container li {
+    width: 270px;
+  }
+  .benefits-container li {
+    margin-right: 30px;
+  }
+  .benefits-container li:nth-child(2n) {
+    margin-left: 0px;
   }
 }
 
@@ -718,10 +758,76 @@ img {
   padding-bottom: 30px;
 }
 
+.work {
+  padding-bottom: 94px;
+}
+
 @media screen and (max-width: 1200px) {
   .work {
     display: none;
   }
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.process {
+  display: flex;
+}
+
+.process li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.job {
+  position: relative;
+}
+
+.job-offer {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+}
+
+.job-text {
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 27px;
+  color: #ffffff;
+}
+
+.benefits__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.benefits__icon-background {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+
+.benefits__andr-head {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
 }
 
 @media screen and (min-width: 768px) {
