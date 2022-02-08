@@ -62,6 +62,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 /* Сховати*/
 .visually-hidden {
   position: absolute;
@@ -97,6 +103,12 @@ img {
 @media screen and (min-width: 768px) {
   .header a.logo {
     margin-right: 88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header a.logo {
+    margin-right: 93px;
   }
 }
 
@@ -209,6 +221,18 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .contact {
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .contact li:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
 .contact__tm {
   text-decoration: none;
   list-style: none;
@@ -240,11 +264,29 @@ img {
   fill: var(--primary-text-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .contact__mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+  }
+}
+
 .contact__tel {
   width: 10px;
   height: 14px;
   margin-right: 8px;
   fill: var(--primary-text-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .contact__tel {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+  }
 }
 
 .menu-social {
