@@ -15,4 +15,8 @@
     align-items: center;
     padding: 21px 6px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    height: 80px;
+  }
 }
