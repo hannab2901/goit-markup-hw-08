@@ -2,6 +2,8 @@
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
   @media screen and (min-width: 768px) {
   }
   padding-right: 89px;
@@ -11,6 +13,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+    flex-wrap: nowrap;
+    align-items: center;
   }
 }
 
@@ -66,11 +73,15 @@
   }
 }
 .footer-social {
-  margin-top: 60px;
-  margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     margin-top: 0px;
     margin-left: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+    width: 206px;
+    margin-left: 70px;
+    margin-bottom: 25px;
   }
 }
 
@@ -109,6 +120,11 @@
   @media screen and (min-width: 768px) {
   }
   margin-top: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+    margin-left: 93px;
+    text-align: left;
+  }
 }
 .footer-input {
   width: 358px;
@@ -128,6 +144,7 @@
   padding: 15px 16px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 12px;
 }
 
 .mail-ist {
@@ -140,5 +157,9 @@
   & button {
     margin-left: auto;
     margin-right: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
   }
 }
