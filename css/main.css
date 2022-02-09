@@ -720,6 +720,12 @@ img {
     width: 450px;
     text-align: center;
   }
+  .benefits-container li {
+    margin-bottom: 30px;
+  }
+  .benefits-container :last-child {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -783,7 +789,6 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: left;
-  margin-bottom: 30px;
 }
 
 .work {
