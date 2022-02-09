@@ -432,7 +432,6 @@ img {
   margin-bottom: 50px;
   justify-content: left;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -445,6 +444,7 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio-btn {
     margin-bottom: 30px;
+    justify-content: center;
   }
 }
 
@@ -569,7 +569,7 @@ img {
     position: absolute;
     z-index: 1;
     width: 480px;
-    height: 796px;
+    min-height: 796px;
     padding-left: 40px;
     padding-top: 48px;
     padding-bottom: 48px;
