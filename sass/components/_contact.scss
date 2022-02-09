@@ -61,6 +61,9 @@
     color: var(--accent-color);
     fill: var(--accent-color);
   }
+  &:nth-last-child(n) {
+    margin-bottom: 10px;
+  }
 }
 .contact__mail {
   width: 14px;
@@ -71,7 +74,6 @@
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: var(--primary-text-color);
   }
 }
 .contact__tel {
@@ -83,7 +85,6 @@
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    fill: var(--primary-text-color);
   }
 }
 .menu-social {
