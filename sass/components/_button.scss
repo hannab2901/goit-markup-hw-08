@@ -46,13 +46,14 @@
   margin-bottom: 50px;
   justify-content: left;
   flex-wrap: wrap;
-  justify-content: center;
+
   @media screen and (min-width: 480px) {
     margin-bottom: 25px;
     justify-content: flex-start;
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
+    justify-content: center;
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
