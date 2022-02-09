@@ -12,14 +12,14 @@
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   width: 450px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
 
   @media screen and (min-width: 768px) {
     width: 354px;
     &:nth-child(2n) {
       margin-left: 30px;
-    }
-    &:last-child {
-      margin-bottom: 0px;
     }
   }
   @media screen and (min-width: 1200px) {
