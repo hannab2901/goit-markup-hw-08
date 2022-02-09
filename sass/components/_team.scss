@@ -21,6 +21,7 @@
   @media screen and (min-width: 1200px) {
     width: 270px;
     margin-left: 30px;
+    margin-top: 50px;
   }
 }
 
@@ -29,6 +30,10 @@
   padding-bottom: 60px;
   background: #f5f4fa;
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .heading {
   @include font($fw: 700, $fs: 28px, $lh: 1.18, $ls: 0.03em);
