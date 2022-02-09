@@ -1319,6 +1319,9 @@ img {
   .project li:nth-child(2n) {
     margin-left: 30px;
   }
+  .project li:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1331,6 +1334,9 @@ img {
   }
   .project li:nth-child(3n) {
     margin-right: 0px;
+  }
+  .project li:nth-child(n + 7) {
+    margin-bottom: 0px;
   }
 }
 
@@ -1407,6 +1413,12 @@ img {
 .proff-card {
   text-align: left;
   padding: 20px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .proff-card {
+    width: 354px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
