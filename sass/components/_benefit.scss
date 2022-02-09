@@ -43,6 +43,9 @@
     & li:nth-child(2n) {
       margin-left: 0px;
     }
+    & li {
+      margin-bottom: 0px;
+    }
   }
 }
 .benefits__icon {
@@ -60,6 +63,9 @@
   }
   @media screen and (min-width: 768px) {
     width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
   }
 }
 .benefits__andr-head {
