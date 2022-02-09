@@ -375,7 +375,7 @@ img {
 .menu-button {
   border: none;
   background-color: transparent;
-  position: absolute;
+  position: fixed;
   right: 15px;
   top: 10px;
   z-index: 2;
