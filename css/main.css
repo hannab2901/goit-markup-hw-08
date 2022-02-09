@@ -751,9 +751,16 @@ img {
   }
 }
 
+.benefits__icon {
+  width: 70px;
+  height: 70px;
+}
+
 .benefits__icon-background {
   background: #f5f4fa;
   border-radius: 4px;
+  width: 450px;
+  height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -764,10 +771,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  text-align: left;
+  color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .benefits__text {
@@ -775,10 +781,9 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  letter-spacing: 0.03em;
   color: #757575;
   text-align: left;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .work {
@@ -829,28 +834,6 @@ img {
   text-transform: uppercase;
   padding: 27px;
   color: #ffffff;
-}
-
-.benefits__icon {
-  width: 70px;
-  height: 70px;
-}
-
-.benefits__icon-background {
-  background: #f5f4fa;
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  padding: 25px 100px;
-}
-
-.benefits__andr-head {
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-text-color);
 }
 
 @media screen and (min-width: 768px) {
