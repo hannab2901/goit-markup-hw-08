@@ -301,6 +301,10 @@ img {
   fill: var(--accent-color);
 }
 
+.contact__tm:nth-last-child(n) {
+  margin-bottom: 10px;
+}
+
 .contact__mail {
   width: 14px;
   height: 10px;
@@ -313,7 +317,6 @@ img {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: var(--primary-text-color);
   }
 }
 
@@ -329,7 +332,6 @@ img {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    fill: var(--primary-text-color);
   }
 }
 
@@ -435,6 +437,14 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio-btn {
     justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-btn {
+    justify-content: center;
+    margin-bottom: 50px;
   }
 }
 
