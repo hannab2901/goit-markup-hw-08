@@ -262,15 +262,19 @@ img {
 
 @media screen and (min-width: 1200px) {
   .contact {
-    align-items: center;
     flex-direction: row;
-    justify-content: center;
     margin-left: auto;
     margin-right: 0;
   }
   .contact li:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 30px;
   }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact__tm {
