@@ -740,6 +740,9 @@ img {
   .benefits-container li:nth-child(2n) {
     margin-left: 30px;
   }
+  .benefits-container li:nth-child(n + 3) {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -765,10 +768,21 @@ img {
 .benefits__icon-background {
   background: #f5f4fa;
   border-radius: 4px;
-  width: 450px;
   height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+@media screen and (min-width: 480px) {
+  .benefits__icon-background {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits__icon-background {
+    width: 354px;
+  }
 }
 
 .benefits__andr-head {
@@ -780,6 +794,7 @@ img {
   color: var(--title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .benefits__text {
