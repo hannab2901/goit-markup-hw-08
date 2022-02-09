@@ -363,7 +363,7 @@ img {
 }
 
 .mobile {
-  margin-top: 302px;
+  margin-top: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -564,14 +564,16 @@ img {
 
 @media screen and (min-width: 480px) {
   .navigation {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     z-index: 1;
-    min-width: 480px;
-    min-height: 796px;
+    width: 480px;
+    height: 796px;
     padding-left: 40px;
     padding-top: 48px;
     padding-bottom: 48px;
+    padding-right: 83px;
     right: 0;
     left: 0;
     top: 0;
