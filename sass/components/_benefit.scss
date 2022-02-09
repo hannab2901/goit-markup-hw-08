@@ -28,6 +28,9 @@
     & li:nth-child(2n) {
       margin-left: 30px;
     }
+    & li:nth-child(n + 3) {
+      margin-bottom: 0px;
+    }
   }
   @media screen and (min-width: 1200px) {
     width: 1200px;
@@ -49,10 +52,15 @@
 .benefits__icon-background {
   background: #f5f4fa;
   border-radius: 4px;
-  width: 450px;
   height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
 }
 .benefits__andr-head {
   @include font($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
@@ -60,6 +68,9 @@
   color: var(--title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
+  @media screen and (min-width: 768px) {
+  }
+  text-align: left;
 }
 .benefits__text {
   @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
