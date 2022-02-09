@@ -36,26 +36,28 @@
     }
   }
 }
-
+.benefits__icon {
+  width: 70px;
+  height: 70px;
+}
 .benefits__icon-background {
   background: #f5f4fa;
   border-radius: 4px;
+  width: 450px;
+  height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
 .benefits__andr-head {
   @include font($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em);
   text-transform: uppercase;
-  color: #212121;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  text-align: left;
+  color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .benefits__text {
   @include font($fw: 400, $fs: 14px, $lh: 1.71, $ls: 0.03em);
-  letter-spacing: 0.03em;
   color: #757575;
   text-align: left;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
