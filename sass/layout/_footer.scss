@@ -4,14 +4,8 @@
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
-  @media screen and (min-width: 768px) {
-    padding-right: 89px;
-  }
-  @media screen and (min-width: 1200px) {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
 }
+
 .footer-flex {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -122,8 +116,8 @@
 .mail-list {
   text-align: center;
   @media screen and (min-width: 768px) {
+    margin-top: 60px;
   }
-  margin-top: 60px;
   @media screen and (min-width: 1200px) {
     margin-top: 0px;
     margin-left: 93px;
@@ -131,9 +125,13 @@
   }
 }
 .footer-input {
-  width: 358px;
   height: 50px;
-
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: #2f303a;
