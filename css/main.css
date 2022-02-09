@@ -565,7 +565,7 @@ img {
 @media screen and (min-width: 480px) {
   .navigation {
     display: block;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     min-width: 480px;
     min-height: 796px;
