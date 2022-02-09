@@ -1086,6 +1086,13 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .border {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -1319,7 +1326,6 @@ img {
   line-height: 2.25;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  margin-bottom: 4px;
 }
 
 .name {
@@ -1335,6 +1341,12 @@ img {
   overflow: hidden;
 }
 
+@media screen and (min-width: 1200px) {
+  .card-project {
+    width: 370px;
+  }
+}
+
 .card-project:hover .text-project {
   transform: translateY(-100%);
   opacity: 1;
@@ -1347,6 +1359,12 @@ img {
 @media screen and (min-width: 768px) {
   .card-project img {
     width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-project img {
+    width: 370px;
   }
 }
 
@@ -1375,6 +1393,12 @@ img {
 .proff-card {
   text-align: left;
   padding: 20px 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .proff-card {
+    width: 370px;
+  }
 }
 
 .project-border:hover,
