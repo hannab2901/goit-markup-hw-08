@@ -390,13 +390,28 @@ img {
   }
 }
 
-.menu-button:hover svg,
-.menu-button:focus svg {
+.menu-button:hover svg {
   fill: var(--accent-color);
 }
 
 @media screen and (min-width: 768px) {
   .menu-button {
+    display: none;
+  }
+}
+
+.menu-button.is-open ~ .navigation {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-button.is-open ~ .navigation {
+    display: contents;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-button.is-open {
     display: none;
   }
 }
@@ -602,22 +617,6 @@ img {
   }
   .navigation ul:first-child {
     padding-bottom: 0px;
-  }
-}
-
-.is-open ~ .navigation {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .is-open ~ .navigation {
-    display: contents;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .is-open {
-    display: none;
   }
 }
 
