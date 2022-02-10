@@ -816,7 +816,13 @@ img {
   color: var(--title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits__andr-head {
+    text-align: left;
+  }
 }
 
 .benefits__text {
