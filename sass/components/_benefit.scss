@@ -59,8 +59,7 @@
   height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
-  width: 100%;
-  @media screen and (min-width: 480px) {
+  width: 100vw @media screen and (min-width: 480px) {
     width: 450px;
   }
   @media screen and (min-width: 768px) {
