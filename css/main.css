@@ -751,7 +751,7 @@ img {
   width: 100%;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .benefits-container {
     width: 450px;
     text-align: center;
@@ -810,7 +810,6 @@ img {
   height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
-  width: 100%;
 }
 
 @media screen and (min-width: 480px) {
