@@ -151,6 +151,7 @@ img {
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
