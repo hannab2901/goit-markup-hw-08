@@ -805,6 +805,7 @@ img {
   height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
+  width: 100%;
 }
 
 @media screen and (min-width: 380px) {
@@ -1091,6 +1092,7 @@ img {
 .our-clients {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .our-clients li {
