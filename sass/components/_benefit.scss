@@ -8,7 +8,7 @@
 }
 
 .benefits-container {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     width: 450px;
     text-align: center;
     & li {
@@ -58,7 +58,7 @@
   height: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     width: 450px;
   }
   @media screen and (min-width: 768px) {
