@@ -916,6 +916,9 @@ img {
     margin-left: 30px;
     margin-top: 50px;
   }
+  .taam_li:nth-child(1) {
+    margin-left: 0px;
+  }
 }
 
 .section-team {
