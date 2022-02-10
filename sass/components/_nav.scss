@@ -1,5 +1,5 @@
 .navigation {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -39,7 +39,7 @@
   }
 }
 .navigation__li {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     display: contents;
     text-align: left;
   }
@@ -48,7 +48,7 @@
   align-items: center;
 }
 .navigation__list {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     @include font($fw: 500, $fs: 40px, $lh: 1.18, $ls: 0.02em);
     color: var(--title-text-color);
     font-style: normal;
@@ -80,7 +80,7 @@
     top: 44px;
     background: var(--accent-color);
     border-radius: 2px;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) {
       display: none;
     }
     @media screen and (min-width: 768px) {
@@ -93,7 +93,7 @@
 }
 
 .navigation__li {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     & li:first-child {
       padding-bottom: 35px;
     }
