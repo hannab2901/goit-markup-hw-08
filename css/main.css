@@ -210,9 +210,14 @@ img {
   margin: auto;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 480px) {
   .hero__header {
     width: 360px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .hero__header {
     font-weight: 900;
     font-size: 26px;
     line-height: 1.62;
