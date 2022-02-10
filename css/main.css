@@ -50,7 +50,7 @@ img {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
     width: 480px;
   }
@@ -117,7 +117,7 @@ img {
   display: flex;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .header {
     width: 480px;
     position: relative;
@@ -244,7 +244,7 @@ img {
   color: var(--accent-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .contact {
     display: none;
   }
@@ -434,7 +434,7 @@ img {
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .portfolio-btn {
     margin-bottom: 25px;
     justify-content: flex-start;
@@ -476,7 +476,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .btn-portfolio {
     margin-bottom: 15px;
   }
@@ -573,7 +573,7 @@ img {
   padding-left: 29px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .navigation {
     display: flex;
     flex-direction: column;
@@ -624,14 +624,14 @@ img {
   align-items: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .navigation__li {
     display: contents;
     text-align: left;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .navigation__list {
     font-weight: 500;
     font-size: 40px;
@@ -676,7 +676,7 @@ img {
   border-radius: 2px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .navigation__list.current::after {
     display: none;
   }
@@ -691,7 +691,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .navigation__li li:first-child {
     padding-bottom: 35px;
   }
@@ -727,7 +727,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .benefits-container {
     width: 450px;
     text-align: center;
@@ -788,7 +788,7 @@ img {
   padding-bottom: 25px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .benefits__icon-background {
     width: 450px;
   }
@@ -945,7 +945,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .team__img {
     width: 450px;
   }
@@ -1021,7 +1021,7 @@ img {
   justify-content: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .social {
     margin-top: 16px;
     margin-left: 122px;
@@ -1062,7 +1062,7 @@ img {
   justify-content: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .our-clients {
     width: 480px;
   }
@@ -1225,7 +1225,7 @@ img {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-social {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -1312,7 +1312,7 @@ img {
   margin-right: 12px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-input {
     width: 450px;
   }
