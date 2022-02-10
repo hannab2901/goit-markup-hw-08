@@ -813,7 +813,7 @@ img {
   width: 100%;
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 480px) {
   .benefits__icon-background {
     width: 450px;
   }
