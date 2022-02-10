@@ -1379,7 +1379,7 @@ img {
   margin-right: 12px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .footer-input {
     width: 450px;
   }
