@@ -1574,11 +1574,11 @@ img {
   background: rgba(0, 0, 0, 0.2);
   top: 0;
   transition: opacity 300ms, visibility 300ms;
+  z-index: 25;
 }
 
 .modal {
   width: 100%;
-  min-height: 609px;
   padding: 40px;
   position: fixed;
   top: 50%;
@@ -1599,7 +1599,7 @@ img {
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
-    min-height: 581;
+    min-height: 581px;
   }
 }
 
